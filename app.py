@@ -27,7 +27,7 @@ def load_chemprop_model():
     arguments = [
         '--test_path', '/dev/null',
         '--preds_path', '/dev/null',
-        '--checkpoint_dir', '/home/amir.daghighi/projects/ICE_toxicity/ICE_v4/codes/streamlit/',
+        '--checkpoint_dir', './',
         '--features_generator', 'rdkit_2d_normalized',
         '--no_features_scaling'
     ]
